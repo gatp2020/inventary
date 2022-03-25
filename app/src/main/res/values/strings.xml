@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TomaInventario</string>
+    <string name="hint_date">Fecha</string>
+    <string name="hint_code">Codigo</string>
+    <string name="hint_time">Hora de inicio</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_description">Descripción</string>
+    <string name="btn_next">SIGUIENTE</string>
+    <string name="hint_btn_art_name">Nombre articulo</string>
+    <string name="hint_btn_art_count">Cantidad Articulo</string>
+    <string name="tv_txt_title_condition">ESTADOS</string>
+    <string name="rb_good_condition">Buen estado</string>
+    <string name="rb_bad_condition">Mal estado</string>
+    <string name="btn_back">ATRAS</string>
+    <string name="hint_finish_time">Hora Termino</string>
+    <string name="btn_send">ENVIAR</string>
+
+</resources>

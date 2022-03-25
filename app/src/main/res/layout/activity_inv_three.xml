@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvThree">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="790dp"
+        android:layout_height="666dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etFinishTime"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="@string/hint_finish_time"
+            android:inputType="time"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="793dp"
+        android:layout_height="460dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnBackIvtThree"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/btn_back" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/btn_send" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

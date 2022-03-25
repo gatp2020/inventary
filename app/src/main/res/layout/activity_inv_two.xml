@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvTwo">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="796dp"
+        android:layout_height="569dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etArtName"
+            android:layout_width="match_parent"
+
+            android:layout_height="85dp"
+            android:layout_marginTop="50dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/hint_btn_art_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etArtCount"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="50dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/hint_btn_art_count"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/rgEstados"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tvRadioRutton"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/tv_txt_title_condition"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbGoodConditionOne"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rb_good_condition"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:layout_marginLeft="295dp"/>
+
+            <RadioButton
+                android:id="@+id/rbBadCondition"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/rb_bad_condition"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                android:layout_marginLeft="295dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="798dp"
+        android:layout_height="435dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/btnBack"
+
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/btn_back" />
+
+        <Button
+            android:id="@+id/btnNextTwo"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/btn_next" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
